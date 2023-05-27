@@ -1,0 +1,131 @@
+/* Reset default styles */
+
+/* Global styles */
+html, body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  nav a:hover {
+    background-color: #eee;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .device-controls {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #999;
+  }
+  
+  /* Page-specific styles */
+  /* Living Room page */
+  #tv-on,
+  #tv-off,
+  #ac-on,
+  #ac-off {
+    margin-right: 10px;
+  }
+  
+  /* Kitchen page */
+  #kitchen-lights-on,
+  #kitchen-lights-off,
+  #microwave-on,
+  #microwave-off {
+    margin-right: 10px;
+  }
+  
+  /* Toilet page */
+  #toilet-light-on,
+  #toilet-light-off,
+  #exhaust-fan-on,
+  #exhaust-fan-off {
+    margin-right: 10px;
+  }
+  
+  /* Bathroom page */
+  #shower-on,
+  #shower-off,
+  #bathroom-lights-on,
+  #bathroom-lights-off {
+    margin-right: 10px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 16px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+  
+    footer {
+      font-size: 14px;
+    }
+  }
+  
